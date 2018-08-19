@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 import { Observable } from 'rxjs';
 import update from 'immutability-helper';
 
-import { IoTHubManagerService } from 'services';
-import { svgs } from 'utilities';
-import { permissions } from 'services/models';
+import { IoTHubManagerService } from '../../../../../services';
+import { svgs } from '../../../../../utilities';
+import { permissions } from '../../../../../services/models';
 import {
   AjaxError,
   Btn,
@@ -25,7 +25,7 @@ import {
   SummarySection,
   Svg,
   ToggleBtn
-} from 'components/shared';
+} from '../../../../../components/shared';
 
 import './deviceDelete.css';
 

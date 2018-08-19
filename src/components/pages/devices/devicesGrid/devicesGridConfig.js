@@ -1,8 +1,8 @@
 // Copyright (c) Microsoft. All rights reserved.
 
-import Config from 'app.config';
-import { IsSimulatedRenderer, ConnectionStatusRenderer, TimeRenderer, SoftSelectLinkRenderer } from 'components/shared/cellRenderers';
-import { EMPTY_FIELD_VAL, gridValueFormatters } from 'components/shared/pcsGrid/pcsGridConfig';
+import Config from '../../../../app.config';
+import { IsSimulatedRenderer, ConnectionStatusRenderer, TimeRenderer, SoftSelectLinkRenderer } from '../../../../components/shared/cellRenderers';
+import { EMPTY_FIELD_VAL, gridValueFormatters } from '../../../../components/shared/pcsGrid/pcsGridConfig';
 
 const { checkForEmpty } = gridValueFormatters;
 

@@ -1,8 +1,8 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React from 'react';
-import { JobGrid } from 'components/pages/maintenance/grids';
-import { AjaxError } from 'components/shared';
+import { JobGrid } from '../../../../components/pages/maintenance/grids';
+import { AjaxError } from '../../../../components/shared';
 
 export const Jobs = ({ isPending, jobs, history, error, ...props }) => {
   const gridProps = {

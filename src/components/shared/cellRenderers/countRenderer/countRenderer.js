@@ -1,8 +1,8 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React, { Component } from "react";
-import { EMPTY_FIELD_VAL } from 'components/shared/pcsGrid/pcsGridConfig';
-import { Indicator } from 'components/shared';
+import { EMPTY_FIELD_VAL } from '../../../../components/shared/pcsGrid/pcsGridConfig';
+import { Indicator } from '../../../../components/shared';
 
 export class CountRenderer extends Component {
   render() {

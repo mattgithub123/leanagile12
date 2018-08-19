@@ -2,7 +2,7 @@
 
 import React, { Component } from "react";
 
-import { isFunc } from 'utilities';
+import { isFunc } from '../../../../utilities';
 
 import '../cellRenderer.css';
 

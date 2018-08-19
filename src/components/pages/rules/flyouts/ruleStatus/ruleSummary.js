@@ -9,8 +9,8 @@ import {
   SummaryCount,
   SummarySection,
   Svg
-} from 'components/shared';
-import { svgs, joinClasses } from 'utilities';
+} from '../../../../../components/shared';
+import { svgs, joinClasses } from '../../../../../utilities';
 import './ruleSummary.css';
 
 export const RuleSummary = ({ rule, isPending, completedSuccessfully, t, className }) => (

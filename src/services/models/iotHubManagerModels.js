@@ -2,7 +2,7 @@
 
 import update from 'immutability-helper';
 import dot from 'dot-object';
-import { camelCaseReshape, getItems } from 'utilities';
+import { camelCaseReshape, getItems } from '../../utilities';
 import uuid from 'uuid/v4';
 
 // Contains methods for converting service response

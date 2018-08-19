@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import { stringify } from 'query-string';
-import Config from 'app.config';
+import Config from '../app.config';
 import { HttpClient } from './httpClient';
 import {
   toActiveAlertsModel,

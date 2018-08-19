@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import { LinkedComponent } from 'utilities';
-import { permissions } from 'services/models';
+import { LinkedComponent } from '../../../../../utilities';
+import { permissions } from '../../../../../services/models';
 import {
   Flyout,
   FlyoutHeader,
@@ -15,7 +15,7 @@ import {
   FormLabel,
   Protected,
   Radio
-} from 'components/shared';
+} from '../../../../../components/shared';
 import {
   DeviceJobTags,
   DeviceJobMethods,

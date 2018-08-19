@@ -3,7 +3,7 @@
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { DeviceDelete } from './deviceDelete';
-import { redux as deviceRedux } from 'store/reducers/devicesReducer';
+import { redux as deviceRedux } from '../../../../../store/reducers/devicesReducer';
 
 // Wrap the dispatch method
 const mapDispatchToProps = dispatch => ({

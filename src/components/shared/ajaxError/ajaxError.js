@@ -3,7 +3,7 @@
 import React from 'react';
 
 import { ErrorMsg } from '../forms';
-import { joinClasses } from 'utilities';
+import { joinClasses } from '../../../utilities';
 
 import './ajaxError.css';
 

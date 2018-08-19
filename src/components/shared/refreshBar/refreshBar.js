@@ -2,9 +2,9 @@
 
 import React, { Component } from 'react';
 import moment from 'moment';
-import { Btn } from 'components/shared';
-import { svgs } from 'utilities';
-import { DEFAULT_TIME_FORMAT } from 'components/shared/pcsGrid/pcsGridConfig';
+import { Btn } from '../../../components/shared';
+import { svgs } from '../../../utilities';
+import { DEFAULT_TIME_FORMAT } from '../../../components/shared/pcsGrid/pcsGridConfig';
 
 import './refreshBar.css';
 

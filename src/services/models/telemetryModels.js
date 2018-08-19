@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft. All rights reserved.
 
-import { camelCaseReshape, getItems } from 'utilities';
+import { camelCaseReshape, getItems } from '../../utilities';
 import update from 'immutability-helper';
 
 export const toRulesModel = (response = {}) => getItems(response)

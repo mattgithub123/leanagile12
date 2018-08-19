@@ -7,7 +7,7 @@ import {
   redux as appRedux,
   getDeviceGroups,
   getActiveDeviceGroupId
-} from 'store/reducers/appReducer';
+} from '../../../../store/reducers/appReducer';
 
 const mapStateToProps = state => ({
   deviceGroups: getDeviceGroups(state),

@@ -2,10 +2,10 @@
 
 import React, { Component } from 'react';
 
-import { permissions } from 'services/models';
+import { permissions } from '../../../services/models';
 import { DevicesGrid } from './devicesGrid';
-import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from 'components/app/deviceGroupDropdown';
-import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from 'components/app/manageDeviceGroupsBtn';
+import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from '../../../components/app/deviceGroupDropdown';
+import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from '../../../components/app/manageDeviceGroupsBtn';
 import {
   AjaxError,
   Btn,
@@ -14,10 +14,10 @@ import {
   Protected,
   RefreshBar,
   SearchInput
-} from 'components/shared';
+} from '../../../components/shared';
 import { DeviceNewContainer } from './flyouts/deviceNew';
 import { SIMManagementContainer } from './flyouts/SIMManagement';
-import { svgs } from 'utilities';
+import { svgs } from '../../../utilities';
 
 import './devices.css';
 

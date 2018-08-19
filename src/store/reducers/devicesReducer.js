@@ -7,7 +7,7 @@ import { schema, normalize } from 'normalizr';
 import update from 'immutability-helper';
 import { createSelector } from 'reselect';
 import { redux as appRedux, getActiveDeviceGroupConditions } from './appReducer';
-import { IoTHubManagerService } from 'services';
+import { IoTHubManagerService } from '../../services';
 import {
   createReducerScenario,
   createEpicScenario,
@@ -18,7 +18,7 @@ import {
   toActionCreator,
   getPending,
   getError
-} from 'store/utilities';
+} from '../../store/utilities';
 
 // ========================= Epics - START
 const handleError = fromAction => error =>

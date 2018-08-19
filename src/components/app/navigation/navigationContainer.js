@@ -7,7 +7,7 @@ import {
   getName,
   isDefaultLogo,
   getLogoPendingStatus,
-} from 'store/reducers/appReducer';
+} from '../../../store/reducers/appReducer';
 import Navigation from './navigation';
 
 const mapStateToProps = state => ({

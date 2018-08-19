@@ -3,8 +3,8 @@
 import React from 'react';
 import update from 'immutability-helper';
 
-import { DeviceSimulationService, IoTHubManagerService } from 'services';
-import { authenticationTypeOptions, permissions, toNewDeviceRequestModel } from 'services/models';
+import { DeviceSimulationService, IoTHubManagerService } from '../../../../../services';
+import { authenticationTypeOptions, permissions, toNewDeviceRequestModel } from '../../../../../services/models';
 import {
   copyToClipboard,
   int,
@@ -13,7 +13,7 @@ import {
   stringToBoolean,
   svgs,
   Validator
-} from 'utilities';
+} from '../../../../../utilities';
 import {
   AjaxError,
   Btn,
@@ -36,7 +36,7 @@ import {
   SummaryCount,
   SummarySection,
   Svg
-} from 'components/shared';
+} from '../../../../../components/shared';
 
 import './deviceNew.css';
 

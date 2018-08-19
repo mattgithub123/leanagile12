@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React from 'react';
-import { PcsGrid } from 'components/shared';
-import { translateColumnDefs } from 'utilities';
-import { rulesColumnDefs } from 'components/pages/rules/rulesGrid/rulesGridConfig';
-import { TimeRenderer } from 'components/shared/cellRenderers';
+import { PcsGrid } from '../../../../components/shared';
+import { translateColumnDefs } from '../../../../utilities';
+import { rulesColumnDefs } from '../../../../components/pages/rules/rulesGrid/rulesGridConfig';
+import { TimeRenderer } from '../../../../components/shared/cellRenderers';
 
 const columnDefs = [
   rulesColumnDefs.ruleName,

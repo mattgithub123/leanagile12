@@ -2,11 +2,11 @@
 
 import 'rxjs';
 import { Observable } from 'rxjs';
-import { ConfigService, GitHubService } from 'services';
+import { ConfigService, GitHubService } from '../../services';
 import { schema, normalize } from 'normalizr';
 import { createSelector } from 'reselect';
 import update from 'immutability-helper';
-import { permissions } from 'services/models';
+import { permissions } from '../../services/models';
 import {
   createAction,
   createReducerScenario,
@@ -18,8 +18,8 @@ import {
   toActionCreator,
   getPending,
   getError
-} from 'store/utilities';
-import { svgs, compareByProperty } from 'utilities';
+} from '../../store/utilities';
+import { svgs, compareByProperty } from '../../utilities';
 
 // ========================= Epics - START
 const handleError = fromAction => error =>

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import Config from 'app.config';
+import Config from '../../../../app.config';
 
 import {
   SeverityRenderer,
@@ -11,7 +11,7 @@ import {
   LastTriggerRenderer,
   LinkRenderer,
   SoftSelectLinkRenderer
-} from 'components/shared/cellRenderers';
+} from '../../../../components/shared/cellRenderers';
 export const LAST_TRIGGER_DEFAULT_WIDTH = 310;
 
 export const rulesColumnDefs = {

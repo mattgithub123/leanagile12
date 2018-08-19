@@ -12,7 +12,7 @@ import {
   getReleaseNotes,
   setLogoError,
   setLogoPendingStatus
-} from 'store/reducers/appReducer';
+} from '../../../../store/reducers/appReducer';
 import {
   isSimulationEnabled,
   getSimulationEtag,
@@ -20,10 +20,10 @@ import {
   getToggleSimulationError,
   getToggleSimulationPendingStatus,
   getSimulationError,
-} from 'store/reducers/deviceSimulationReducer';
+} from '../../../../store/reducers/deviceSimulationReducer';
 import { Settings } from './settings';
-import { epics as appEpics } from 'store/reducers/appReducer';
-import { epics as simulationEpics } from 'store/reducers/deviceSimulationReducer';
+import { epics as appEpics } from '../../../../store/reducers/appReducer';
+import { epics as simulationEpics } from '../../../../store/reducers/deviceSimulationReducer';
 
 const mapStateToProps = state => ({
   theme: getTheme(state),

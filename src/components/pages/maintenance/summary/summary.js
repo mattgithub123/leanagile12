@@ -5,13 +5,13 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from 'components/app/deviceGroupDropdown';
-import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from 'components/app/manageDeviceGroupsBtn';
-import { TimeIntervalDropdown } from 'components/app/timeIntervalDropdown';
+import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from '../../../../components/app/deviceGroupDropdown';
+import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from '../../../../components/app/manageDeviceGroupsBtn';
+import { TimeIntervalDropdown } from '../../../../components/app/timeIntervalDropdown';
 import { Notifications } from './notifications';
 import { Jobs } from './jobs';
-import { PageContent, ContextMenu, RefreshBar, Svg } from 'components/shared';
-import { svgs, renderUndefined } from 'utilities';
+import { PageContent, ContextMenu, RefreshBar, Svg } from '../../../../components/shared';
+import { svgs, renderUndefined } from '../../../../utilities';
 
 import './summary.css';
 

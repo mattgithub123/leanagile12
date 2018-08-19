@@ -18,17 +18,17 @@ import {
   SummarySection,
   Svg,
   ToggleBtn
-} from 'components/shared';
-import { SeverityRenderer } from 'components/shared/cellRenderers';
+} from '../../../../../components/shared';
+import { SeverityRenderer } from '../../../../../components/shared/cellRenderers';
 import {
   Validator,
   svgs,
   LinkedComponent
-} from 'utilities';
-import Flyout from 'components/shared/flyout';
-import { IoTHubManagerService, TelemetryService } from 'services';
-import { toNewRuleRequestModel } from 'services/models';
-import Config from 'app.config';
+} from '../../../../../utilities';
+import Flyout from '../../../../../components/shared/flyout';
+import { IoTHubManagerService, TelemetryService } from '../../../../../services';
+import { toNewRuleRequestModel } from '../../../../../services/models';
+import Config from '../../../../../app.config';
 
 import './ruleEditor.css';
 

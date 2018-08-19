@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Breadcrumbs } from './breadcrumbs';
-import { Svg } from 'components/shared';
-import { svgs } from 'utilities';
-import ProfileImagePath from 'assets/images/profile.png';
+import { Svg } from '../../../components/shared';
+import { svgs } from '../../../utilities';
+import ProfileImagePath from '../../../assets/images/profile.png';
 
 import './header.css';
 

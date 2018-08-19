@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 import { Observable, Subject } from 'rxjs';
 
-import Config from 'app.config';
-import { permissions } from 'services/models';
-import { RulesGrid } from 'components/pages/rules/rulesGrid';
+import Config from '../../../../app.config';
+import { permissions } from '../../../../services/models';
+import { RulesGrid } from '../../../../components/pages/rules/rulesGrid';
 import {
   AjaxError,
   Btn,
@@ -15,17 +15,17 @@ import {
   PageContent,
   Protected,
   RefreshBar
-} from 'components/shared';
-import { svgs, joinClasses, renderUndefined } from 'utilities';
-import { DevicesGrid } from 'components/pages/devices/devicesGrid';
-import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from 'components/app/deviceGroupDropdown';
-import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from 'components/app/manageDeviceGroupsBtn';
-import { TimeIntervalDropdown } from 'components/app/timeIntervalDropdown';
-import { TelemetryChart, transformTelemetryResponse, chartColorObjects } from 'components/pages/dashboard/panels/telemetry';
-import { TelemetryService } from 'services';
-import { TimeRenderer, SeverityRenderer } from 'components/shared/cellRenderers';
-import { AlertOccurrencesGrid } from 'components/pages/maintenance/grids';
-import { ROW_HEIGHT } from 'components/shared/pcsGrid/pcsGridConfig';
+} from '../../../../components/shared';
+import { svgs, joinClasses, renderUndefined } from '../../../../utilities';
+import { DevicesGrid } from '../../../../components/pages/devices/devicesGrid';
+import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from '../../../../components/app/deviceGroupDropdown';
+import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from '../../../../components/app/manageDeviceGroupsBtn';
+import { TimeIntervalDropdown } from '../../../../components/app/timeIntervalDropdown';
+import { TelemetryChart, transformTelemetryResponse, chartColorObjects } from '../../../../components/pages/dashboard/panels/telemetry';
+import { TelemetryService } from '../../../../services';
+import { TimeRenderer, SeverityRenderer } from '../../../../components/shared/cellRenderers';
+import { ROW_HEIGHT } from '../../../../components/shared/pcsGrid/pcsGridConfig';
+import { AlertOccurrencesGrid } from '../../../../components/pages/maintenance/grids';
 
 import './ruleDetails.css';
 

@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-import Flyout from 'components/shared/flyout';
-import { Btn, Indicator, ToggleBtn } from 'components/shared';
-import { svgs, LinkedComponent } from 'utilities';
-import ApplicationSettings from 'components/app/flyouts/settings/applicationSettings';
+import Flyout from '../../../../components/shared/flyout';
+import { Btn, Indicator, ToggleBtn } from '../../../../components/shared';
+import { svgs, LinkedComponent } from '../../../../utilities';
+import ApplicationSettings from '../../../../components/app/flyouts/settings/applicationSettings';
 
 import './settings.css';
 

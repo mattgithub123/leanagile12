@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { isFunc, joinClasses } from 'utilities';
+import { isFunc, joinClasses } from '../../../utilities';
 
 import './styles/formGroup.css';
 

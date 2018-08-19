@@ -2,11 +2,11 @@
 
 import React from 'react';
 
-import { IoTHubManagerService } from 'services';
-import { permissions } from 'services/models';
-import { Btn, Protected } from 'components/shared';
-import { svgs, LinkedComponent } from 'utilities';
-import Flyout from 'components/shared/flyout';
+import { IoTHubManagerService } from '../../../../services';
+import { permissions } from '../../../../services/models';
+import { Btn, Protected } from '../../../../components/shared';
+import { svgs, LinkedComponent } from '../../../../utilities';
+import Flyout from '../../../../components/shared/flyout';
 import DeviceGroupForm from './views/deviceGroupForm';
 import DeviceGroups from './views/deviceGroups';
 

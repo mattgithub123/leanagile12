@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import 'tsiclient';
 
-import { AjaxError, Indicator } from 'components/shared';
+import { AjaxError, Indicator } from '../../../../../components/shared';
 import {
   Panel,
   PanelHeader,
@@ -12,7 +12,7 @@ import {
   PanelOverlay,
   PanelError,
   PanelMsg
-} from 'components/pages/dashboard/panel';
+} from '../../../../../components/pages/dashboard/panel';
 
 import './analyticsPanel.css';
 

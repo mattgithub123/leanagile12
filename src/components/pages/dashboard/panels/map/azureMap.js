@@ -2,8 +2,8 @@
 
 import React, { Component } from 'react';
 
-import Config from 'app.config';
-import { isFunc } from 'utilities';
+import Config from '../../../../../app.config';
+import { isFunc } from '../../../../../utilities';
 
 const AzureMaps = window.atlas;
 

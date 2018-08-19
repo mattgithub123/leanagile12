@@ -6,7 +6,7 @@ import moment from 'moment';
 import { schema, normalize } from 'normalizr';
 import update from 'immutability-helper';
 import { createSelector } from 'reselect';
-import { TelemetryService, IoTHubManagerService } from 'services';
+import { TelemetryService, IoTHubManagerService } from '../../services';
 import {
   getActiveDeviceGroupId,
   getActiveDeviceGroupConditions,
@@ -21,7 +21,7 @@ import {
   setPending,
   getPending,
   getError
-} from 'store/utilities';
+} from '../../store/utilities';
 
 // ========================= Epics - START
 const handleError = fromAction => error =>

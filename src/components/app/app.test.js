@@ -3,8 +3,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount } from 'enzyme';
-import AppContainer from 'components/app/app.container';
-import MockApp from 'components/mocks/mockApp';
+import AppContainer from '../../components/app/app.container';
+import MockApp from '../../components/mocks/mockApp';
 
 describe('App integration test', () => {
   let wrapper;

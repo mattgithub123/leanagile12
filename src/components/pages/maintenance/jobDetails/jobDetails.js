@@ -2,13 +2,13 @@
 
 import React, { Component } from 'react';
 
-import Config from 'app.config';
-import { AjaxError, PageContent, ContextMenu, RefreshBar } from 'components/shared';
-import { DevicesGrid } from 'components/pages/devices/devicesGrid';
-import { JobGrid, JobStatusGrid } from 'components/pages/maintenance/grids';
-import { TimeIntervalDropdown } from 'components/app/timeIntervalDropdown';
+import Config from '../../../../app.config';
+import { AjaxError, PageContent, ContextMenu, RefreshBar } from '../../../../components/shared';
+import { DevicesGrid } from '../../../../components/pages/devices/devicesGrid';
+import { JobGrid, JobStatusGrid } from '../../../../components/pages/maintenance/grids';
+import { TimeIntervalDropdown } from '../../../../components/app/timeIntervalDropdown';
 
-import { IoTHubManagerService } from 'services';
+import { IoTHubManagerService } from '../../../../services';
 
 export class JobDetails extends Component {
 

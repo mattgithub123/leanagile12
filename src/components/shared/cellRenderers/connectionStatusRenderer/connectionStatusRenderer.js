@@ -2,8 +2,8 @@
 
 import React from "react";
 
-import { Svg } from 'components/shared/svg/svg';
-import { svgs } from 'utilities';
+import { Svg } from '../../../../components/shared/svg/svg';
+import { svgs } from '../../../../utilities';
 
 import '../cellRenderer.css';
 

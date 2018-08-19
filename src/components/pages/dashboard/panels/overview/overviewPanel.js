@@ -2,9 +2,9 @@
 
 import React, { Component } from 'react';
 
-import { AjaxError, Indicator } from 'components/shared';
-import { Svg } from 'components/shared/svg/svg';
-import { svgs, renderUndefined, isDef } from 'utilities';
+import { AjaxError, Indicator } from '../../../../../components/shared';
+import { Svg } from '../../../../../components/shared/svg/svg';
+import { svgs, renderUndefined, isDef } from '../../../../../utilities';
 import {
   Panel,
   PanelHeader,
@@ -12,7 +12,7 @@ import {
   PanelContent,
   PanelOverlay,
   PanelError
-} from 'components/pages/dashboard/panel';
+} from '../../../../../components/pages/dashboard/panel';
 
 import './overviewPanel.css';
 

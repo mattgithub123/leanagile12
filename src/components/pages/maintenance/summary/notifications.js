@@ -1,8 +1,8 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React from 'react';
-import { AlertGrid } from 'components/pages/maintenance/grids';
-import { AjaxError } from 'components/shared';
+import { AlertGrid } from '../../../../components/pages/maintenance/grids';
+import { AjaxError } from '../../../../components/shared';
 
 export const Notifications = ({ isPending, alerts, history, error, ...props }) => {
   const gridProps = {

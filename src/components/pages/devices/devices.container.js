@@ -9,8 +9,8 @@ import {
   getDevicesError,
   getDevicesLastUpdated,
   getDevicesPendingStatus
-} from 'store/reducers/devicesReducer';
-import { getDeviceGroups, getDeviceGroupError } from 'store/reducers/appReducer';
+} from '../../../store/reducers/devicesReducer';
+import { getDeviceGroups, getDeviceGroupError } from '../../../store/reducers/appReducer';
 
 // Pass the devices status
 const mapStateToProps = state => ({

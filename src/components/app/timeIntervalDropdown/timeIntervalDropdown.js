@@ -2,8 +2,8 @@
 
 import React, { Component } from 'react';
 
-import { Select } from 'components/shared';
-import { isFunc } from 'utilities';
+import { Select } from '../../../components/shared';
+import { isFunc } from '../../../utilities';
 
 import './timeIntervalDropdown.css';
 

@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import { Observable } from 'rxjs';
 import update from 'immutability-helper';
 
-import { IoTHubManagerService } from 'services';
-import { toSubmitPropertiesJobRequestModel } from 'services/models';
-import { svgs, LinkedComponent, Validator } from 'utilities';
+import { IoTHubManagerService } from '../../../../../services';
+import { toSubmitPropertiesJobRequestModel } from '../../../../../services/models';
+import { svgs, LinkedComponent, Validator } from '../../../../../utilities';
 import {
   AjaxError,
   Btn,
@@ -24,14 +24,14 @@ import {
   SummaryCount,
   SummarySection,
   Svg
-} from 'components/shared';
+} from '../../../../../components/shared';
 import {
   PropertyGrid as Grid,
   PropertyGridBody as GridBody,
   PropertyGridHeader as GridHeader,
   PropertyRow as Row,
   PropertyCell as Cell
-} from 'components/pages/devices/flyouts/deviceDetails/propertyGrid';
+} from '../../../../../components/pages/devices/flyouts/deviceDetails/propertyGrid';
 
 update.extend('$autoArray', (val, obj) => update(obj || [], val));
 

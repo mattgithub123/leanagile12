@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft. All rights reserved.
 
-import { camelCaseReshape, getItems, reshape } from 'utilities';
+import { camelCaseReshape, getItems, reshape } from '../../utilities';
 
 export const toDeviceSimulationModel = (response = {}) => camelCaseReshape(response, {
   'eTag': 'eTag',

@@ -2,7 +2,7 @@
 
 import { Observable, TestScheduler } from 'rxjs';
 import { HttpClient, retryHandler, classifyError } from './httpClient';
-import Config from 'app.config';
+import Config from '../app.config';
 
 const url = 'http://www.fakeurl.com';
 

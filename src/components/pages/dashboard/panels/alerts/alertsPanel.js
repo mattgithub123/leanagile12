@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-import { AjaxError, Indicator } from 'components/shared';
+import { AjaxError, Indicator } from '../../../../../components/shared';
 import {
   Panel,
   PanelContent,
@@ -11,9 +11,9 @@ import {
   PanelHeaderLabel,
   PanelMsg,
   PanelOverlay
-} from 'components/pages/dashboard/panel';
-import { RulesGrid, rulesColumnDefs } from 'components/pages/rules/rulesGrid';
-import { translateColumnDefs } from 'utilities';
+} from '../../../../../components/pages/dashboard/panel';
+import { RulesGrid, rulesColumnDefs } from '../../../../../components/pages/rules/rulesGrid';
+import { translateColumnDefs } from '../../../../../utilities';
 
 export class AlertsPanel extends Component {
 

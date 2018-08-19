@@ -4,18 +4,18 @@ import React from 'react';
 import { Trans } from 'react-i18next';
 import { Link } from 'react-router-dom'
 
-import { permissions } from 'services/models';
+import { permissions } from '../../../../../services/models';
 
-import { LinkedComponent, svgs } from 'utilities';
+import { LinkedComponent, svgs } from '../../../../../utilities';
 
 import {
   FormControl,
   Btn,
   BtnToolbar,
   Protected
-} from 'components/shared';
+} from '../../../../../components/shared';
 
-import Flyout from 'components/shared/flyout';
+import Flyout from '../../../../../components/shared/flyout';
 
 import './SIMManagement.css';
 

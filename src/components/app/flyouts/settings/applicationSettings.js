@@ -2,10 +2,10 @@
 
 import React, { Component } from 'react';
 
-import { Btn, FormGroup, FormLabel, FormControl, Indicator, Svg, FileInput } from 'components/shared';
-import { svgs, isValidExtension } from 'utilities';
-import Flyout from 'components/shared/flyout';
-import Config from 'app.config';
+import { Btn, FormGroup, FormLabel, FormControl, Indicator, Svg, FileInput } from '../../../../components/shared';
+import { svgs, isValidExtension } from '../../../../utilities';
+import Flyout from '../../../../components/shared/flyout';
+import Config from '../../../../app.config';
 
 import './applicationSettings.css';
 

@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-import { Select } from 'components/shared';
+import { Select } from '../../../components/shared';
 
 import './deviceGroupDropdown.css';
 

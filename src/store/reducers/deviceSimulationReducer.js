@@ -3,7 +3,7 @@
 import 'rxjs';
 import { Observable } from 'rxjs';
 import update from 'immutability-helper';
-import { DeviceSimulationService } from 'services';
+import { DeviceSimulationService } from '../../services';
 import {
   createReducerScenario,
   createEpicScenario,
@@ -14,7 +14,7 @@ import {
   setPending,
   getPending,
   getError
-} from 'store/utilities';
+} from '../../store/utilities';
 
 // ========================= Epics - START
 const handleError = fromAction => error =>

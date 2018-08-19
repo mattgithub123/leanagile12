@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import moment from 'moment';
-import { DEFAULT_TIME_FORMAT, EMPTY_FIELD_VAL, gridValueFormatters } from 'components/shared/pcsGrid/pcsGridConfig';
+import { DEFAULT_TIME_FORMAT, EMPTY_FIELD_VAL, gridValueFormatters } from '../../../../components/shared/pcsGrid/pcsGridConfig';
 
 const { checkForEmpty } = gridValueFormatters;
 

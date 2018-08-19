@@ -9,11 +9,11 @@ import {
   BtnToolbar,
   Protected,
   ToggleBtn
-} from 'components/shared';
-import { svgs } from 'utilities';
-import { TelemetryService } from 'services';
-import { permissions, toNewRuleRequestModel } from 'services/models';
-import Flyout from 'components/shared/flyout';
+} from '../../../../../components/shared';
+import { svgs } from '../../../../../utilities';
+import { TelemetryService } from '../../../../../services';
+import { permissions, toNewRuleRequestModel } from '../../../../../services/models';
+import Flyout from '../../../../../components/shared/flyout';
 
 import './ruleStatus.css';
 import { RuleSummary } from './ruleSummary';

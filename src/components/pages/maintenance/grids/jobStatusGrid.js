@@ -1,9 +1,9 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React from 'react';
-import { PcsGrid } from 'components/shared';
-import { translateColumnDefs, getStatusCode } from 'utilities';
-import { TimeRenderer } from 'components/shared/cellRenderers';
+import { PcsGrid } from '../../../../components/shared';
+import { translateColumnDefs, getStatusCode } from '../../../../utilities';
+import { TimeRenderer } from '../../../../components/shared/cellRenderers';
 
 const columnDefs = [
   {

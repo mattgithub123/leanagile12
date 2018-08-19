@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React, { Component } from 'react';
-import { permissions } from 'services/models';
+import { permissions } from '../../../services/models';
 import { RulesGrid } from './rulesGrid';
-import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from 'components/app/deviceGroupDropdown';
-import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from 'components/app/manageDeviceGroupsBtn';
+import { DeviceGroupDropdownContainer as DeviceGroupDropdown } from '../../../components/app/deviceGroupDropdown';
+import { ManageDeviceGroupsBtnContainer as ManageDeviceGroupsBtn } from '../../../components/app/manageDeviceGroupsBtn';
 import {
   AjaxError,
   Btn,
@@ -13,9 +13,9 @@ import {
   Protected,
   RefreshBar,
   SearchInput
- } from 'components/shared';
+} from '../../../components/shared';
 import { NewRuleFlyout } from './flyouts';
-import { svgs } from 'utilities';
+import { svgs } from '../../../utilities';
 
 import './rules.css';
 

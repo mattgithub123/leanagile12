@@ -2,7 +2,7 @@
 
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
-import { redux as appRedux, getDeviceGroups, getActiveDeviceGroupId } from 'store/reducers/appReducer';
+import { redux as appRedux, getDeviceGroups, getActiveDeviceGroupId } from '../../../store/reducers/appReducer';
 
 import { DeviceGroupDropdown } from './deviceGroupDropdown';
 

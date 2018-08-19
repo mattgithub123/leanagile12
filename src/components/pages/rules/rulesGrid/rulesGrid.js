@@ -3,11 +3,11 @@
 import React, { Component } from 'react';
 import { Trans } from 'react-i18next';
 
-import { permissions } from 'services/models';
-import { Btn, PcsGrid, Protected } from 'components/shared';
+import { permissions } from '../../../../services/models';
+import { Btn, PcsGrid, Protected } from '../../../../components/shared';
 import { rulesColumnDefs, defaultRulesGridProps } from './rulesGridConfig';
-import { checkboxColumn } from 'components/shared/pcsGrid/pcsGridConfig';
-import { isFunc, translateColumnDefs, svgs } from 'utilities';
+import { checkboxColumn } from '../../../../components/shared/pcsGrid/pcsGridConfig';
+import { isFunc, translateColumnDefs, svgs } from '../../../../utilities';
 import { EditRuleFlyout, RuleStatusContainer, DeleteRuleContainer } from '../flyouts'
 
 import './rulesGrid.css';

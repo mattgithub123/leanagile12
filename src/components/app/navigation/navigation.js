@@ -2,9 +2,9 @@
 
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Svg, Indicator } from 'components/shared';
+import { Svg, Indicator } from '../../../components/shared';
 
-import { svgs } from 'utilities';
+import { svgs } from '../../../utilities';
 
 import './navigation.css';
 

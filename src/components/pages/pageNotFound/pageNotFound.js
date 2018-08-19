@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { PageContent } from 'components/shared';
+import { PageContent } from '../../../components/shared';
 
 import './pageNotFound.css';
 

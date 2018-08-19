@@ -1,8 +1,8 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React, { Component } from 'react';
-import { Svg } from 'components/shared';
-import { isFunc, svgs, joinClasses } from 'utilities';
+import { Svg } from '../../../components/shared';
+import { isFunc, svgs, joinClasses } from '../../../utilities';
 import { FormLabel } from './formLabel';
 import './styles/toggleBtn.css';
 

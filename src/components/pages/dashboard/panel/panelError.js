@@ -3,7 +3,7 @@
 import React from 'react';
 
 import { PanelOverlay } from './panelOverlay';
-import { joinClasses } from 'utilities';
+import { joinClasses } from '../../../../utilities';
 
 export const PanelError = ({ children, className }) => (
   <PanelOverlay className="error-overlay">

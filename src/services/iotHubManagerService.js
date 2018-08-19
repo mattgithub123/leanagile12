@@ -2,7 +2,7 @@
 
 import { Observable } from 'rxjs';
 
-import Config from 'app.config';
+import Config from '../app.config';
 import { stringify } from 'query-string';
 import { HttpClient } from './httpClient';
 import { toDevicesModel, toDeviceModel, toJobsModel, toJobStatusModel, toDevicePropertiesModel } from './models';

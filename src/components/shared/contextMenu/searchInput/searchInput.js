@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import { Svg } from 'components/shared';
-import { svgs, joinClasses } from 'utilities';
+import { Svg } from '../../../../components/shared';
+import { svgs, joinClasses } from '../../../../utilities';
 
 import './searchInput.css';
 

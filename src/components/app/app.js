@@ -17,9 +17,9 @@ import  {
   RulesContainer as RulesPage,
   MaintenanceContainer as MaintenancePage,
   PageNotFoundContainer as PageNotFound
-} from 'components/pages';
+} from '../../components/pages';
 
-import { svgs } from 'utilities';
+import { svgs } from '../../utilities';
 
 import './app.css';
 

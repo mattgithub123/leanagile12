@@ -2,7 +2,7 @@
 
 import { Observable } from 'rxjs';
 
-import Config from 'app.config';
+import Config from '../app.config';
 import { HttpClient } from './httpClient';
 import { toDeviceModelSelectOptions, toDeviceSimulationModel, toDeviceSimulationRequestModel } from './models';
 

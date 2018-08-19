@@ -2,9 +2,9 @@
 
 import React, { Component } from "react";
 
-import { EMPTY_FIELD_VAL } from 'components/shared/pcsGrid/pcsGridConfig';
+import { EMPTY_FIELD_VAL } from '../../../../components/shared/pcsGrid/pcsGridConfig';
 import { TimeRenderer } from '../timeRenderer/timeRenderer';
-import { Indicator } from 'components/shared';
+import { Indicator } from '../../../../components/shared';
 
 export class LastTriggerRenderer extends Component {
   render() {

@@ -5,7 +5,7 @@ import update from 'immutability-helper';
 import { Observable } from 'rxjs';
 import 'tsiclient';
 
-import { joinClasses } from 'utilities';
+import { joinClasses } from '../../../../../utilities';
 
 import './telemetryChart.css';
 

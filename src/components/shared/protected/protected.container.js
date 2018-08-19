@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import { connect } from 'react-redux';
-import { getUserPermissions } from 'store/reducers/appReducer';
+import { getUserPermissions } from '../../../store/reducers/appReducer';
 import { ProtectedImpl } from './protected.impl';
 
 const mapStateToProps = state => ({

@@ -6,11 +6,11 @@ import { DeviceNew } from './deviceNew';
 import {
   epics as simulationEpics,
   getSimulationDeviceModelOptions
-} from 'store/reducers/deviceSimulationReducer';
+} from '../../../../../store/reducers/deviceSimulationReducer';
 import {
   epics as devicesEpics,
   redux as devicesRedux
-} from 'store/reducers/devicesReducer';
+} from '../../../../../store/reducers/devicesReducer';
 
 // Pass the global info needed
 const mapStateToProps = state => ({

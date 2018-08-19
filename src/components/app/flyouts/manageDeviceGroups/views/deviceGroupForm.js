@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import { permissions } from 'services/models';
-import { svgs, LinkedComponent, Validator } from 'utilities';
+import { permissions } from '../../../../../services/models';
+import { svgs, LinkedComponent, Validator } from '../../../../../utilities';
 import {
   AjaxError,
   Btn,
@@ -13,14 +13,14 @@ import {
   FormLabel,
   Indicator,
   Protected
-} from 'components/shared';
-import { ConfigService } from 'services';
+} from '../../../../../components/shared';
+import { ConfigService } from '../../../../../services';
 import {
   toCreateDeviceGroupRequestModel,
   toUpdateDeviceGroupRequestModel
-} from 'services/models';
+} from '../../../../../services/models';
 
-import Flyout from 'components/shared/flyout';
+import Flyout from '../../../../../components/shared/flyout';
 
 const Section = Flyout.Section;
 

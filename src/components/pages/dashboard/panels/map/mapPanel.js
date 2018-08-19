@@ -3,8 +3,8 @@
 import React, { Component } from 'react';
 import update from 'immutability-helper';
 
-import Config from 'app.config';
-import { AjaxError, Indicator } from 'components/shared';
+import Config from '../../../../../app.config';
+import { AjaxError, Indicator } from '../../../../../components/shared';
 import {
   Panel,
   PanelHeader,
@@ -12,8 +12,8 @@ import {
   PanelContent,
   PanelOverlay,
   PanelError
-} from 'components/pages/dashboard/panel';
-import { DeviceDetailsContainer } from 'components/pages/devices/flyouts/deviceDetails';
+} from '../../../../../components/pages/dashboard/panel';
+import { DeviceDetailsContainer } from '../../../../../components/pages/devices/flyouts/deviceDetails';
 import { AzureMap } from './azureMap';
 
 import './mapPanel.css';

@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import { Component } from 'react';
-import { isFunc } from 'utilities';
+import { isFunc } from '../../../utilities';
 
 export class ProtectedImpl extends Component {
   userHasPermission() {

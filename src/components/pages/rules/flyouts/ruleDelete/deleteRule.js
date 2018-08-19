@@ -4,18 +4,18 @@ import React, { Component } from 'react';
 
 import { Link } from 'react-router-dom';
 import { Trans } from 'react-i18next';
-import { permissions } from 'services/models';
+import { permissions } from '../../../../../services/models';
 import {
   AjaxError,
   Btn,
   BtnToolbar,
   Protected,
   Svg
-} from 'components/shared';
-import { svgs } from 'utilities';
-import { TelemetryService } from 'services';
-import { toNewRuleRequestModel } from 'services/models';
-import Flyout from 'components/shared/flyout';
+} from '../../../../../components/shared';
+import { svgs } from '../../../../../utilities';
+import { TelemetryService } from '../../../../../services';
+import { toNewRuleRequestModel } from '../../../../../services/models';
+import Flyout from '../../../../../components/shared/flyout';
 import { RuleSummary } from '..';
 
 import './deleteRule.css';

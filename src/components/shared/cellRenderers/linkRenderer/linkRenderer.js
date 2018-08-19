@@ -3,8 +3,8 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
 
-import { Svg } from 'components/shared/svg/svg';
-import { svgs } from 'utilities';
+import { Svg } from '../../../../components/shared/svg/svg';
+import { svgs } from '../../../../utilities';
 
 import '../cellRenderer.css';
 

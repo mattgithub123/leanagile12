@@ -1,14 +1,14 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 import React, { Component } from 'react';
-import { permissions } from 'services/models';
-import { Btn, PcsGrid, Protected } from 'components/shared';
+import { permissions } from '../../../../services/models';
+import { Btn, PcsGrid, Protected } from '../../../../components/shared';
 import { deviceColumnDefs, defaultDeviceGridProps } from './devicesGridConfig';
 import { DeviceDeleteContainer } from '../flyouts/deviceDelete';
 import { DeviceJobsContainer } from '../flyouts/deviceJobs';
 import { DeviceDetailsContainer } from '../flyouts/deviceDetails';
-import { isFunc, svgs, translateColumnDefs } from 'utilities';
-import { checkboxColumn } from 'components/shared/pcsGrid/pcsGridConfig';
+import { isFunc, svgs, translateColumnDefs } from '../../../../utilities';
+import { checkboxColumn } from '../../../../components/shared/pcsGrid/pcsGridConfig';
 
 const closedFlyoutState = {
   openFlyoutName: undefined,

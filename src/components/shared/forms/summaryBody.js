@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { joinClasses } from 'utilities';
+import { joinClasses } from '../../../utilities';
 
 export const SummaryBody = (props) => (
   <div className={joinClasses('summary-body', props.className)}>{props.children}</div>

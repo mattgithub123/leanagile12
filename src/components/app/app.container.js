@@ -3,12 +3,12 @@
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
-import { AuthService } from 'services';
+import { AuthService } from '../../services';
 import {
   epics as appEpics,
   getTheme,
   getDeviceGroupFlyoutStatus
-} from 'store/reducers/appReducer';
+} from '../../store/reducers/appReducer';
 import App from './app';
 
 const mapStateToProps = state => ({

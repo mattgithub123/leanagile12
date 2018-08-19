@@ -10,8 +10,8 @@ import {
   getRulesError,
   getRulesLastUpdated,
   getRulesPendingStatus
-} from 'store/reducers/rulesReducer';
-import { getDeviceGroups } from 'store/reducers/appReducer';
+} from '../../../store/reducers/rulesReducer';
+import { getDeviceGroups } from '../../../store/reducers/appReducer';
 
 // Pass the devices status
 const mapStateToProps = state => ({

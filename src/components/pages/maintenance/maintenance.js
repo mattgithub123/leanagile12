@@ -6,13 +6,13 @@ import { schema, normalize } from 'normalizr';
 import update from 'immutability-helper';
 import moment from 'moment';
 
-import Config from 'app.config';
+import Config from '../../../app.config';
 import { Summary } from './summary/summary';
 import { RuleDetails } from './ruleDetails/ruleDetails';
 import { JobDetails } from './jobDetails/jobDetails';
-import { getIntervalParams } from 'utilities';
+import { getIntervalParams } from '../../../utilities';
 
-import { TelemetryService, IoTHubManagerService } from 'services';
+import { TelemetryService, IoTHubManagerService } from '../../../services';
 
 import './maintenance.css';
 

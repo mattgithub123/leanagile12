@@ -3,7 +3,7 @@
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { RuleStatus } from './ruleStatus';
-import { redux as rulesRedux } from 'store/reducers/rulesReducer';
+import { redux as rulesRedux } from '../../../../../store/reducers/rulesReducer';
 
 // Wrap the dispatch method
 const mapDispatchToProps = dispatch => ({

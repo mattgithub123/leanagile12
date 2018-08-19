@@ -4,10 +4,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Observable } from 'rxjs';
 
-import { IoTHubManagerService } from 'services';
-import { toSubmitMethodJobRequestModel, methodJobConstants } from 'services/models';
-import { LinkedComponent } from 'utilities';
-import { svgs, Validator } from 'utilities';
+import { IoTHubManagerService } from '../../../../../services';
+import { toSubmitMethodJobRequestModel, methodJobConstants } from '../../../../../services/models';
+import { LinkedComponent } from '../../../../../utilities';
+import { svgs, Validator } from '../../../../../utilities';
 import {
   AjaxError,
   Btn,
@@ -23,7 +23,7 @@ import {
   SummaryCount,
   SummarySection,
   Svg
-} from 'components/shared';
+} from '../../../../../components/shared';
 
 const isAlphaNumericRegex = /^[a-zA-Z0-9]*$/;
 const nonAlphaNumeric = x => !x.match(isAlphaNumericRegex);

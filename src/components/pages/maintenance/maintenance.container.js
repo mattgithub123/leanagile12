@@ -7,19 +7,19 @@ import {
   redux as appRedux,
   getTheme,
   getTimeInterval
-} from 'store/reducers/appReducer';
+} from '../../../store/reducers/appReducer';
 import {
   epics as rulesEpics,
   getEntities as getRuleEntities,
   getRulesError,
   getRulesPendingStatus,
   getRulesLastUpdated
-} from 'store/reducers/rulesReducer';
+} from '../../../store/reducers/rulesReducer';
 import {
   getEntities as getDeviceEntities,
   getDevicesLastUpdated,
   getDevicesPendingStatus
-} from 'store/reducers/devicesReducer';
+} from '../../../store/reducers/devicesReducer';
 
 // Pass the devices status
 const mapStateToProps = state => ({

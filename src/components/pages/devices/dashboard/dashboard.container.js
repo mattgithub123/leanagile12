@@ -16,13 +16,13 @@ import {
   getEntities as getRuleEntities,
   getRulesPendingStatus,
   getRulesError
-} from '../../../store/reducers/rulesReducer';
+} from 'store/reducers/rulesReducer';
 import {
   getDevicesError,
   getDevicesLastUpdated,
   getDevicesPendingStatus,
   getEntities as getDeviceEntities
-} from '../../../store/reducers/devicesReducer';
+} from 'store/reducers/devicesReducer';
 
 import { Dashboard } from './dashboard';
 

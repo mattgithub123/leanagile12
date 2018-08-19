@@ -2,9 +2,9 @@
 
 import React from "react";
 
-import Config from 'app.config';
-import { Svg } from 'components/shared/svg/svg';
-import { svgs } from 'utilities';
+import Config from '../../../../app.config';
+import { Svg } from '../../../../components/shared/svg/svg';
+import { svgs } from '../../../../utilities';
 
 import '../cellRenderer.css';
 import './severityRenderer.css';
