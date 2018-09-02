@@ -13,6 +13,7 @@ const DashboardCrumbs = ({ t }) => <Crumb>{t('tabs.dashboard')}</Crumb>;
 const DevicesCrumbs = ({ t }) => <Crumb>{t('tabs.devices')}</Crumb>;
 const RulesCrumbs = ({ t }) => <Crumb>{t('tabs.rules')}</Crumb>;
 const MaintenanceCrumbs = ({ t }) => <Crumb>{t('tabs.maintenance')}</Crumb>;
+const UsersCrumbs = ({ t }) => <Crumb>{t('tabs.users')}</Crumb>;                                              
 const RuleDetailsCrumbs = ({ t, match }) => [
   <NavLink to="/maintenance/notifications" className="crumb" key={1}>{t('tabs.maintenance')}</NavLink>,
   <Chevron key={2}/>,
@@ -32,5 +33,6 @@ export const Breadcrumbs = ({ t }) => (
     <Route exact path={'/maintenance/:path(notifications|jobs)'} render={props => <MaintenanceCrumbs {...props} t={t} />} />
     <Route exact path={'/maintenance/rule/:id'} render={props => <RuleDetailsCrumbs {...props} t={t} />} />
     <Route exact path={'/maintenance/job/:id'}render={props => <JobDetailsCrumbs {...props} t={t} />} />
+    <Route exact path={'/users'} render={props => <UsersCrumbs {...props} t={t} />} />
   </Switch>
 );

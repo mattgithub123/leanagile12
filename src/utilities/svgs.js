@@ -48,6 +48,7 @@ import TabDashboardIconPath from '../assets/icons/tabDashboard.svg';
 import TabDevicesIconPath from '../assets/icons/tabDevices.svg';
 import TabMaintenanceIconPath from '../assets/icons/tabMaintenance.svg';
 import TabRulesIconPath from '../assets/icons/tabRules.svg';
+import TabUsersIconPath from '../assets/icons/tabUsers.svg';
 import TrashIconPath from '../assets/icons/trash.svg';
 import UploadIconPath from '../assets/icons/upload.svg';
 import WarningIconPath from '../assets/icons/warning.svg';
@@ -59,7 +60,8 @@ export const svgs = {
     dashboard: TabDashboardIconPath,
     devices: TabDevicesIconPath,
     maintenance: TabMaintenanceIconPath,
-    rules: TabRulesIconPath
+    rules: TabRulesIconPath,
+    users: TabUsersIconPath
   },
   devices: {
     generic: DeviceGenericIconPath,

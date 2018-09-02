@@ -1,7 +1,7 @@
 {
-  "companyName": "Contoso",
+  "companyName": "LeanAgile",
   "header": {
-    "appName": "Azure IoT Remote Monitoring",
+    "appName": "LeagAgile IoT Monitoring",
     "logout": "Logout",
     "profile": "Profile",
     "getStarted": "Get started",
@@ -16,7 +16,8 @@
     "dashboard": "Dashboard",
     "devices": "Devices",
     "rules": "Rules",
-    "maintenance": "Maintenance1"
+    "maintenance": "Maintenance",
+    "users": "Users"
   },
   "errorFormat": "Error: {{message}}",
   "errorCode": {
