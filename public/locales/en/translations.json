@@ -19,12 +19,12 @@
     "maintenance": "Maintenance",
     "users": "Users"
   },
-  "errorFormat": "Error: {{message}}",
+  "errorFormat": "{{message}}",
   "errorCode": {
     "noResponse": "Oops, there was no response from the server.",
     "notLoggedIn": "You need to login to call the service.",
     "notAuthorized": "You are not authorized to call the service.",
-    "notFound": "Oops, we were not able to find the service.",
+    "notFound": "Data",
     "redirection": "Oops, we got a redirection error.",
     "retryFailure": "Oops, we got a temporary error from the service but were unable to recover. Try again later.",
     "unknown": "An unknown error occurred. {{message}}"

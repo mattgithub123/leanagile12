@@ -24,7 +24,7 @@ import DisabledIconPath from '../assets/icons/disabled.svg';
 import EditIconPath from '../assets/icons/edit.svg';
 import EllipsisIconPath from '../assets/icons/ellipsis.svg';
 import EnableToggleIconPath from '../assets/icons/enableToggle.svg';
-import ErrorIconPath from '../assets/icons/errorAsterisk.svg';
+
 import HamburgerIconPath from '../assets/icons/hamburger.svg';
 import InfoBubbleIconPath from '../assets/icons/infoBubble.svg';
 import InfoIconPath from '../assets/icons/info.svg';
@@ -89,7 +89,7 @@ export const svgs = {
   edit: EditIconPath,
   ellipsis: EllipsisIconPath,
   enableToggle: EnableToggleIconPath,
-  error: ErrorIconPath,
+ 
   hamburger: HamburgerIconPath,
   info: InfoIconPath,
   infoBubble: InfoBubbleIconPath,

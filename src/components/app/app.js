@@ -26,11 +26,11 @@ import './app.css';
 
 /** The navigation tab configurations */
 const dashboardTab   = { to: '/dashboard',   svg: svgs.tabs.dashboard,   labelId: 'tabs.dashboard' };
+const usersTab       = { to: '/users',       svg: svgs.tabs.users,       labelId: 'tabs.users' };
 const devicesTab     = { to: '/devices',     svg: svgs.tabs.devices,     labelId: 'tabs.devices' };
 const rulesTab       = { to: '/rules',       svg: svgs.tabs.rules,       labelId: 'tabs.rules' };
 const maintenanceTab = { to: '/maintenance', svg: svgs.tabs.maintenance, labelId: 'tabs.maintenance' };
-const usersTab       = { to: '/users',       svg: svgs.tabs.users,       labelId: 'tabs.users' };
-const tabConfigs = [ dashboardTab, devicesTab, rulesTab, maintenanceTab, usersTab ];
+const tabConfigs = [ dashboardTab, usersTab, devicesTab, rulesTab, maintenanceTab ];
 
 /** The base component for the app */
 class App extends Component {
